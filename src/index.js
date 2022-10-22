@@ -20,7 +20,7 @@ export default function App() {
             <Route path="boots" element={<Boots />} />
             <Route path="jackets" element={<Jackets />} />
             <Route path="*" element={<NoPage />} />
-          </Route>
+          </Route >
         </Routes>
       </BrowserRouter>
     );

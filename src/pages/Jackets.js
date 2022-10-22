@@ -49,7 +49,7 @@ const Jackets = () => {
             {products.map((value, i)=>{
                 return(
                 <div className="card col-3 border border-0 rounded-0">
-                    <img src={value.img} className="card-img-top container-fluid" alt="..."></img>
+                    <img src={value.img} className="card-img-top container-fluid zoom" alt="..."></img>
                     <div className="card-body container row cardContainer">
                         <h6 className="card-title title col-10 cardTittle"><p className='cardTittleText' key={i}>{value.name}</p></h6>
                         <a className="likebutton col-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="like bi bi-heart" viewBox="0 0 16 16">

@@ -8,6 +8,7 @@ import Blazers from "./pages/Blazers";
 import Jackets from "./pages/Jackets";
 import Layout from './pages/Layout';
 import NoPage from "./pages/NoPage";
+import Favourites from './pages/Favourites';
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="blazers" element={<Blazers />} />
             <Route path="boots" element={<Boots />} />
             <Route path="jackets" element={<Jackets />} />
+            <Route path="favourites" element={<Favourites />} />
             <Route path="*" element={<NoPage />} />
           </Route >
         </Routes>
